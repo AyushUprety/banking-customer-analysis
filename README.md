@@ -27,7 +27,7 @@ This README provides a comprehensive report integrating key HR considerations—
 **Figure 1** (below) illustrates the **database schema** for the Czech Bank environment. Here you can see how **Clients**, **Accounts**, **Loans**, **Credit Cards**, **Dispositions**, **Permanent Orders**, **Transactions**, and **District/Demographic** data connect:
 
 > **Figure 1: Database schema**  
-> ![Descriptive alt text](https://private-user-images.githubusercontent.com/50670035/401802017-88e46b70-5a4c-40c8-a1dd-93aa5404b122.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIwMTctODhlNDZiNzAtNWE0Yy00MGM4LWExZGQtOTNhYTU0MDRiMTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwN2VkZjYxZjJiMDZiNzEyYzZjNDcyNDBlZTgxYzg1ZjA5MDBiMjE0ZTZmNTlkMGM3OTJlMmU4NjM2YTk0ZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QOxf_-AvYE-AnDV2r5P2fVNqLGmoO6rSxFLYmoxuFrc)
+> ![Database Schema](https://private-user-images.githubusercontent.com/50670035/401802017-88e46b70-5a4c-40c8-a1dd-93aa5404b122.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIwMTctODhlNDZiNzAtNWE0Yy00MGM4LWExZGQtOTNhYTU0MDRiMTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYwN2VkZjYxZjJiMDZiNzEyYzZjNDcyNDBlZTgxYzg1ZjA5MDBiMjE0ZTZmNTlkMGM3OTJlMmU4NjM2YTk0ZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QOxf_-AvYE-AnDV2r5P2fVNqLGmoO6rSxFLYmoxuFrc)
 
 
 Each box represents a table (e.g., `Loan`, `Account`), and the lines represent foreign key relationships. Beyond the purely technical structure, this layout informs which teams and roles likely interact—loan officers, client service reps, credit risk analysts, etc. For HR, understanding these interdependencies supports effective staffing and workflow management across the bank’s operations.
@@ -40,7 +40,7 @@ Each box represents a table (e.g., `Loan`, `Account`), and the lines represent f
 We start by examining how customers are distributed geographically. **Figure 2** shows client counts or percentages across major Czech regions:
 
 > **Figure 2: Clients distribution per regions**  
-> (https://private-user-images.githubusercontent.com/50670035/401802116-01046f30-93c1-4f61-91b8-70788e51ca00.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIxMTYtMDEwNDZmMzAtOTNjMS00ZjYxLTkxYjgtNzA3ODhlNTFjYTAwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhMzg5MjFlNTVhYzEwNWEyNTQ2NjNmZTJlMGZiZTc0NzFjOGEzYWJiODljOGY3MTVjZDI5ZmZkNzA4NTNiODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9t63skrvZFl4i57uNFWLFZ9KgXUj-fJmy7b2awYGmOo)
+> ![Clients Distribution by Regions](https://private-user-images.githubusercontent.com/50670035/401802116-01046f30-93c1-4f61-91b8-70788e51ca00.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIxMTYtMDEwNDZmMzAtOTNjMS00ZjYxLTkxYjgtNzA3ODhlNTFjYTAwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhMzg5MjFlNTVhYzEwNWEyNTQ2NjNmZTJlMGZiZTc0NzFjOGEzYWJiODljOGY3MTVjZDI5ZmZkNzA4NTNiODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9t63skrvZFl4i57uNFWLFZ9KgXUj-fJmy7b2awYGmOo)
 
 - **South Moravia**: ~17% share, the largest portion.  
 - **North Moravia**: ~14%.  
@@ -57,7 +57,7 @@ Where larger client bases exist, branches may require **larger or better-trained
 **Figure 3** highlights the proportion of **classic**, **junior**, and **gold** cards:
 
 > **Figure 3: Card products distribution**  
-> *(Insert `cards_distribution.png` or the corresponding image here.)*
+> ![Card products distribution](https://private-user-images.githubusercontent.com/50670035/401802157-fe48c46f-b0bb-4765-ae6c-51b4f85993c4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIxNTctZmU0OGM0NmYtYjBiYi00NzY1LWFlNmMtNTFiNGY4NTk5M2M0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0N2Y0ZmQwMDI2ZTk0NGM4MDA5M2FkMTVmOTFjZjYwNGRhZDU3OGJhNmMyYmQwZDc4ZTQ3ZDhlNzNmMjlkYjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Z4Yxty74bLIz_Ljn5W4Xy0rr8OegIVa6RDFNPanN2Vs)
 
 - **Classic Cards**: ~74%  
 - **Junior Cards**: ~16%  
@@ -73,7 +73,7 @@ Overwhelming popularity of classic suggests that branch and call-center staff ma
 **Figure 4** is a correlation heatmap showing `amount`, `duration`, `payments`, and `status_numeric` (bad loans = 1, good loans = -1):
 
 > **Figure 4: Loan correlation heatmap**  
-> *(Insert `loan_corr_heatmap.png` or corresponding image.)*
+> ![Loan correlation heatmap](https://private-user-images.githubusercontent.com/50670035/401802198-6a19329a-ed27-480d-baf6-7c9eb5919b4d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIxOTgtNmExOTMyOWEtZWQyNy00ODBkLWJhZjYtN2M5ZWI1OTE5YjRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyM2Q1NmFmMTg3NGZhMzhlOWM3YWViMWU0MWY4MDg2MGE4NjlhZDBlZmFlYTk0N2FlZjAzNTQ4YmQ3YTEyZDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Y6GlY06DtkhtMvZFQ7kNkKoun0MZ0NQ3WDIxIH4PrPQ)
 
 Key observations:
 - **Higher monthly payments** correlate with a higher risk of delinquency.  
@@ -85,7 +85,8 @@ To mitigate risk, the bank’s **loan officers** and **credit analysts** need ro
 **Figure 5** shows **Relative loan status** by district:
 
 > **Figure 5: Relative loans status distributed by districts**  
-> *(Insert `loans_by_district_heatmap.png` or corresponding image.)*
+> *![image](https://private-user-images.githubusercontent.com/50670035/401802241-b0c26133-0fb8-49bc-aaed-90d6569a7932.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIyNDEtYjBjMjYxMzMtMGZiOC00OWJjLWFhZWQtOTBkNjU2OWE3OTMyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxNzA2YTc3MDNmYTcxN2QyNjUyNmQ3NjUzNjc3ZDFjMDExMGMyYTVjMTViMzhkYjE4ODkzYzhkZmUyYWY3MzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.K1AqFqfFP6yy_QZedSNSwrzdRRJl44xeSUErRI9F-gk)
+)*
 
 Districts with 30%+ problematic loans:
 - **Strakonice, Sokolov, Opava, Kutna Hora, Klatovy, Domazlice, Bruntal, Beroun**.
@@ -104,14 +105,14 @@ We focus on two major categories of external bank transfers:
 **Figure 6** shows the yearly trend (1994–1999):
 
 > **Figure 6: Collection from and remittance to another banks (years)**  
-> *(Insert `collection_remittance_years.png` or corresponding image.)*
+>![](https://private-user-images.githubusercontent.com/50670035/401802347-311fd934-488d-449b-ab2b-5e8b0186cbe8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIzNDctMzExZmQ5MzQtNDg4ZC00NDliLWFiMmItNWU4YjAxODZjYmU4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQwNGJlNDVkNWM2NzMyMmZiZmE1YjIyMDYyZmZlMmJhMzc1NzcyMjJiY2VlZDkxNTQ3YjM2NGRlYzQ4OTAwMDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.vDtSEDTn7lS8zPoF_iuNyVno-jcgWENfJUveZOY8Zlc)
 
 - Inflows outpace outflows, resulting in a net positive by 1998–1999.
 
 **Figure 7** offers a monthly perspective:
 
 > **Figure 7: Collection from and remittance to another banks (months)**  
-> *(Insert `collection_remittance_months.png` or corresponding image.)*
+> ![](https://private-user-images.githubusercontent.com/50670035/401802374-c9a05f98-bf62-428d-9b1d-25344ed4b6d2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDIzNzQtYzlhMDVmOTgtYmY2Mi00MjhkLTliMWQtMjUzNDRlZDRiNmQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBiOGEzYmZhOGJiNTJhMTQ3NmE1NWI0MzEwZDYxM2U1ZTRkMTk0YWViMDNiMzI2MGE2NjNmZjY4ZTlkNWIxYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J5yFYGPLHqiVeMAtq8KGSulSxk_YKqMTbd0j7F4DBaQ)
 
 Monthly spikes often align with **salary** or **pension** payouts, which may necessitate **flexible staffing schedules** in relevant branches to accommodate surges.
 
@@ -119,15 +120,15 @@ Monthly spikes often align with **salary** or **pension** payouts, which may nec
 Beyond interbank transfers, standard deposits and withdrawals drive inflows/outflows. **Figures 8 & 9** compare totals at yearly and monthly intervals:
 
 > **Figure 8: Outflows and inflows trends (years)**  
-> *(Insert `inflows_outflows_years.png` or corresponding image.)*  
+> [](https://private-user-images.githubusercontent.com/50670035/401802413-8ab4bb8b-167e-4f1a-904a-17586bf0ce28.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDI0MTMtOGFiNGJiOGItMTY3ZS00ZjFhLTkwNGEtMTc1ODZiZjBjZTI4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIyOWJjYmQxZjJjZTVkMDVlN2M0YWNlOTU4MmNhN2E5MjViMDc0NWZmOWFlZjU0OGFkMjdhOWU0ZTg2NjMxNDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fGj6lfHcGRZExDQhy6OQ6EV1WcamQHClvBRU8Cq-Jg0))*  
 
 > **Figure 9: Outflows and inflows trends (months)**  
-> *(Insert `inflows_outflows_months.png` or corresponding image.)*  
+> ![](https://private-user-images.githubusercontent.com/50670035/401802443-6a85629d-5abc-428e-8d9e-895f2d273651.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDI0NDMtNmE4NTYyOWQtNWFiYy00MjhlLThkOWUtODk1ZjJkMjczNjUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFjYjU3ODU4ZjZmNjM5NGRjZDgyNTMzZWE0ZTdmZTEwNDZhMjUyMzY5OTljMzEzNzI2MmI0ZjBjZmY0MTk4MGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.USSCnec42zCGI0oSWv8tcquwPeoKLaqtvtkQ9ZRWNb4)  
 
 A net surplus emerges overall. **Figure 10** (daily view) highlights sudden spikes on particular days:
 
 > **Figure 10: Outflows and inflows trends (days)**  
-> *(Insert `inflows_outflows_days.png` or corresponding image.)*
+> ![](https://private-user-images.githubusercontent.com/50670035/401802466-736ee244-f97b-4d72-90a4-d28eb08c1097.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzY0ODEzNTMsIm5iZiI6MTczNjQ4MTA1MywicGF0aCI6Ii81MDY3MDAzNS80MDE4MDI0NjYtNzM2ZWUyNDQtZjk3Yi00ZDcyLTkwYTQtZDI4ZWIwOGMxMDk3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTEwVDAzNTA1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiN2ZjN2U0ZGUxOTBkNmZjM2ZlNmI1NGE2YTllOTZlODcyZmNjZTYzNmYxNmRlNWJhODY0NWE4MGJmYTAyMTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9jswyqemC4wHQdx46PrWivg99eF1DfcbAq3CfOQbRMg)*
 
 To handle these peaks, branches may need **seasonal or surge staffing**. Moreover, as digital payment volumes grow, employees with **IT-liaison** or **e-banking** expertise become more critical.
 
