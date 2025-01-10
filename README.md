@@ -27,7 +27,8 @@ This README provides a comprehensive report integrating key HR considerations—
 **Figure 1** (below) illustrates the **database schema** for the Czech Bank environment. Here you can see how **Clients**, **Accounts**, **Loans**, **Credit Cards**, **Dispositions**, **Permanent Orders**, **Transactions**, and **District/Demographic** data connect:
 
 > **Figure 1: Database schema**  
-> *(Insert `schema.png` or the corresponding image here.)*
+> ![Descriptive alt text](https://private-user-images.githubusercontent.com/50670035/401802017-88e46b70-5a4c-40c8-a1dd-93aa5404b122.png?jwt=eyJhbGciOiJI...)
+
 
 Each box represents a table (e.g., `Loan`, `Account`), and the lines represent foreign key relationships. Beyond the purely technical structure, this layout informs which teams and roles likely interact—loan officers, client service reps, credit risk analysts, etc. For HR, understanding these interdependencies supports effective staffing and workflow management across the bank’s operations.
 
