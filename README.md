@@ -1,7 +1,7 @@
-# Czech Bank’s Financial Data Analysis  
+# Bank’s Financial Data Analysis  
 **Moving from Gut Feeling to Data-Driven Decisions**
 
-This README provides a comprehensive report integrating key HR considerations—useful for both technical and non-technical audiences.
+This README provides a comprehensive report integrating key HR considerations that are useful for both technical and non-technical audiences.
 
 ---
 
